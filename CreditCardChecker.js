@@ -64,8 +64,6 @@ const invalidCardStarts = () => {
   }
   return companyNumbers;
 }
-//test
-console.log(invalidCardStarts())
 
 //counter for duplicate numbers
 const countInvalids = (reqNumber) => {
@@ -78,8 +76,6 @@ const countInvalids = (reqNumber) => {
   }
   return counter;
 }
-//test
-console.log(countInvalids(3))
 
 //remove duplicates
 const getShortList = () => {
@@ -113,5 +109,6 @@ const idInvalidCardCompanies = () => {
   }
   return summarizedList
 }
-//test
+
+
 console.log(idInvalidCardCompanies())
